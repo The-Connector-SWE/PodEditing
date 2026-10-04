@@ -23,14 +23,15 @@ function copy(ar) {
       heroLead: 'The same editing team behind PodMedia studios, now for every creator, wherever you record. Send raw footage; get back a broadcast-ready episode, reels and captions in Arabic and English.',
       chips: ['Multi-cam', 'Audio post', 'Reels'], chipMore: '+3 more',
       stats: [ { label: 'First edit', value: '3 business days' }, { label: 'Feedback', value: '2 rounds included' }, { label: 'Languages', value: 'Arabic · English' }, { label: 'Markets', value: '8 cities' } ],
+      watch: 'Watch example', exSoon: 'Example coming soon', exSoonSub: 'We’re cutting a sample for this service. Ask us for recent work in the meantime.', exClose: 'Close',
       s1k: 'Services', s1t: 'Everything after the record button', s1l: 'Edited by PodMedia’s in-house team, the same editors behind our studio productions.',
       services: [
-        { icon: I.film, tag: 'Edit', name: 'Full episode edit', desc: 'Multi-cam switching, cuts, filler removal, colour, mix and master.' },
-        { icon: I.wave, tag: 'Audio', name: 'Audio post', desc: 'Noise cleanup, levelling and masters ready for Spotify and Apple.' },
-        { icon: I.phone, tag: 'Social', name: 'Reels & shorts', desc: 'Vertical cuts with a hook, burned-in captions and a CTA end card.' },
-        { icon: I.cc, tag: 'Language', name: 'Captions & subtitles', desc: 'Accurate Arabic and English subtitles, burned-in or as SRT files.' },
-        { icon: I.img, tag: 'Packaging', name: 'Thumbnails & show notes', desc: 'YouTube thumbnails, titles, chapters and episode descriptions.' },
-        { icon: I.layers, tag: 'Brand', name: 'Show graphics', desc: 'Lower thirds, title cards and transitions in your show’s brand.' }
+        { ex: 'edit', icon: I.film, tag: 'Edit', name: 'Full episode edit', desc: 'Multi-cam switching, cuts, filler removal, colour, mix and master.' },
+        { ex: 'audio', icon: I.wave, tag: 'Audio', name: 'Audio post', desc: 'Noise cleanup, levelling and masters ready for Spotify and Apple.' },
+        { ex: 'reels', icon: I.phone, tag: 'Social', name: 'Reels & shorts', desc: 'Vertical cuts with a hook, burned-in captions and a CTA end card.' },
+        { ex: 'captions', icon: I.cc, tag: 'Language', name: 'Captions & subtitles', desc: 'Accurate Arabic and English subtitles, burned-in or as SRT files.' },
+        { ex: 'packaging', icon: I.img, tag: 'Packaging', name: 'Thumbnails & show notes', desc: 'YouTube thumbnails, titles, chapters and episode descriptions.' },
+        { ex: 'graphics', icon: I.layers, tag: 'Brand', name: 'Show graphics', desc: 'Lower thirds, title cards and transitions in your show’s brand.' }
       ],
       s2k: 'How it works', s2t: 'From raw footage to a published episode', s2l: 'Five steps on a fixed timeline. The clock starts once your complete materials reach us. Business days are Sunday to Thursday, excluding public holidays.',
       steps: [
@@ -100,14 +101,15 @@ function copy(ar) {
       heroLead: 'فريق المونتاج نفسه الذي يقف خلف استوديوهات بود ميديا، متاح الآن لكل صانع محتوى أينما سجّل. أرسل المواد الخام، واستلم حلقة جاهزة للبث مع الريلز والترجمة بالعربية والإنجليزية.',
       chips: ['تعدد الكاميرات', 'هندسة الصوت', 'ريلز'], chipMore: '+3 خدمات',
       stats: [ { label: 'أول نسخة', value: '3 أيام عمل' }, { label: 'الملاحظات', value: 'جولتان مشمولتان' }, { label: 'اللغات', value: 'عربي · إنجليزي' }, { label: 'الأسواق', value: '8 مدن' } ],
+      watch: 'شاهد مثالاً', exSoon: 'المثال قريباً', exSoonSub: 'نجهّز عيّنة لهذه الخدمة. اطلب منا أحدث أعمالنا في الأثناء.', exClose: 'إغلاق',
       s1k: 'الخدمات', s1t: 'كل ما بعد زر التسجيل', s1l: 'بأيدي فريق بود ميديا الداخلي، المحرّرين أنفسهم الذين يقفون خلف إنتاجات استوديوهاتنا.',
       services: [
-        { icon: I.film, tag: 'مونتاج', name: 'مونتاج الحلقة كاملة', desc: 'تبديل الكاميرات، القص، حذف الحشو، تصحيح الألوان، المكساج والماستر.' },
-        { icon: I.wave, tag: 'صوت', name: 'هندسة الصوت', desc: 'تنقية الضوضاء وموازنة المستويات وماستر جاهز لسبوتيفاي وأبل.' },
-        { icon: I.phone, tag: 'سوشال', name: 'ريلز ومقاطع قصيرة', desc: 'مقاطع عمودية ببداية جاذبة وترجمة على الشاشة وخاتمة بدعوة لاتخاذ إجراء.' },
-        { icon: I.cc, tag: 'لغة', name: 'الترجمة والنصوص', desc: 'ترجمة دقيقة بالعربية والإنجليزية، مدمجة في الفيديو أو بملف SRT.' },
-        { icon: I.img, tag: 'تغليف', name: 'الصور المصغّرة والوصف', desc: 'صور مصغّرة ليوتيوب وعناوين وفصول ووصف الحلقة.' },
-        { icon: I.layers, tag: 'هوية', name: 'رسومات البرنامج', desc: 'أشرطة الأسماء وبطاقات العناوين والانتقالات بهوية برنامجك.' }
+        { ex: 'edit', icon: I.film, tag: 'مونتاج', name: 'مونتاج الحلقة كاملة', desc: 'تبديل الكاميرات، القص، حذف الحشو، تصحيح الألوان، المكساج والماستر.' },
+        { ex: 'audio', icon: I.wave, tag: 'صوت', name: 'هندسة الصوت', desc: 'تنقية الضوضاء وموازنة المستويات وماستر جاهز لسبوتيفاي وأبل.' },
+        { ex: 'reels', icon: I.phone, tag: 'سوشال', name: 'ريلز ومقاطع قصيرة', desc: 'مقاطع عمودية ببداية جاذبة وترجمة على الشاشة وخاتمة بدعوة لاتخاذ إجراء.' },
+        { ex: 'captions', icon: I.cc, tag: 'لغة', name: 'الترجمة والنصوص', desc: 'ترجمة دقيقة بالعربية والإنجليزية، مدمجة في الفيديو أو بملف SRT.' },
+        { ex: 'packaging', icon: I.img, tag: 'تغليف', name: 'الصور المصغّرة والوصف', desc: 'صور مصغّرة ليوتيوب وعناوين وفصول ووصف الحلقة.' },
+        { ex: 'graphics', icon: I.layers, tag: 'هوية', name: 'رسومات البرنامج', desc: 'أشرطة الأسماء وبطاقات العناوين والانتقالات بهوية برنامجك.' }
       ],
       s2k: 'آلية العمل', s2t: 'من المواد الخام إلى حلقة منشورة', s2l: 'خمس خطوات وفق جدول زمني ثابت. يبدأ احتساب المدة عند وصول موادك كاملة إلينا. أيام العمل من الأحد إلى الخميس، باستثناء العطل الرسمية.',
       steps: [
@@ -168,7 +170,19 @@ function copy(ar) {
     };
   }
 
-const state = { lang: (new URLSearchParams(location.search).get('lang') === 'ar') ? 'ar' : 'en', mode: 'single', faq: 1 };
+// Example video per service. Paste a YouTube link/ID or a path to an .mp4/.webm file (e.g. 'assets/examples/reels.mp4').
+// Empty entries show a "coming soon" card in the player.
+const PLAY = 'M8 5v14l11-7z';
+const EXAMPLES = { edit: '', audio: '', reels: '', captions: '', packaging: '', graphics: '' };
+const ytId = (v) => { const m = String(v).match(/(?:youtu\.be\/|v=|embed\/|shorts\/)([\w-]{11})/); return m ? m[1] : (/^[\w-]{11}$/.test(v) ? v : ''); };
+function player(src, t) {
+  if (/\.(mp4|webm)(\?|$)/i.test(src)) return `<video src="${esc(src)}" controls autoplay playsinline></video>`;
+  const id = ytId(src);
+  if (id) return `<iframe src="https://www.youtube-nocookie.com/embed/${id}?autoplay=1&rel=0" title="${esc(t.watch)}" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe>`;
+  return `<div class="ex-soon"><div class="tile">${icon(PLAY, 26, '#FFFFFF')}</div><span class="hv" style="font-size:24px">${esc(t.exSoon)}</span><p class="body" style="max-width:420px">${esc(t.exSoonSub)}</p><a class="btn btn-line" href="#contact" data-close>${esc(t.ctaMain)}</a></div>`;
+}
+
+const state = { lang: (new URLSearchParams(location.search).get('lang') === 'ar') ? 'ar' : 'en', mode: 'single', faq: 1, ex: null };
 const esc = (v) => String(v).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 const icon = (d, size, stroke) => `<svg width="${size}" height="${size}" viewBox="0 0 24 24" fill="none" stroke="${stroke}" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="${d}"></path></svg>`;
 const marker = (n, label) => `<div class="marker"><span class="mono red">${n}</span><span class="marker-line"></span><span class="mono" style="color:#B5B5B5">${esc(label)}</span></div>`;
@@ -247,7 +261,7 @@ function render() {
 <section id="services" class="sec bg-a"><div class="wrap">
   ${marker('00:01', t.s1k)}
   <div class="g2 head-2"><h2 class="hv h2">${esc(t.s1t)}</h2><p class="lead">${esc(t.s1l)}</p></div>
-  <div class="g3">${t.services.map((s) => `<div class="card svc"><div class="tile">${icon(s.icon, 26, '#FFFFFF')}</div><span class="mono red" style="font-size:11px;margin-top:10px">${esc(s.tag)}</span><h3 class="hv" style="font-size:27px;line-height:1.15">${esc(s.name)}</h3><p class="body">${esc(s.desc)}</p></div>`).join('')}</div>
+  <div class="g3">${t.services.map((s) => `<div class="card svc"><div class="tile">${icon(s.icon, 26, '#FFFFFF')}</div><span class="mono red" style="font-size:11px;margin-top:10px">${esc(s.tag)}</span><h3 class="hv" style="font-size:27px;line-height:1.15">${esc(s.name)}</h3><p class="body">${esc(s.desc)}</p><button type="button" class="watch" data-ex="${s.ex}"><span class="watch-ic">${icon(PLAY, 14, '#FFFFFF')}</span><span class="mono">${esc(t.watch)}</span></button></div>`).join('')}</div>
 </div></section>
 
 <section id="how" class="sec bg-b"><div class="wrap">
@@ -361,16 +375,27 @@ function render() {
   <img src="assets/podmedia-logo.png" alt="PodMedia Network" style="height:34px;width:auto">
   <span class="mono" style="font-size:11px;color:#8A8A8A">PodMedia · Pod Editing</span>
   <span class="mono" dir="ltr" style="font-size:11px;color:#8A8A8A;text-transform:none;letter-spacing:.08em">podmedia.network/pod-editing · © 2026</span>
-</div></footer>`;
+</div></footer>
+${state.ex ? `<div class="ex-modal" role="dialog" aria-modal="true" aria-label="${esc(t.services.find((x) => x.ex === state.ex)?.name || t.watch)}" data-close>
+  <div class="ex-box">
+    <div class="ex-head"><span class="mono red">${esc(t.services.find((x) => x.ex === state.ex)?.tag || '')} · <span style="color:#fff">${esc(t.services.find((x) => x.ex === state.ex)?.name || '')}</span></span><button type="button" class="ex-x" aria-label="${esc(t.exClose)}" data-close>×</button></div>
+    <div class="ex-frame">${player(EXAMPLES[state.ex] || '', t)}</div>
+  </div>
+</div>` : ''}`;
+  if (state.ex) document.querySelector('.ex-x').focus();
 }
 
+const closeEx = (back) => { const k = state.ex; state.ex = null; render(); if (back) document.querySelector(`[data-ex="${k}"]`)?.focus(); };
 document.addEventListener('click', (e) => {
+  if (state.ex && (e.target.matches('[data-close]') || e.target.closest('.ex-x, a[data-close]'))) { closeEx(!e.target.closest('a')); return; }
   const b = e.target.closest('button');
   if (!b) return;
   if (b.dataset.lang) { state.lang = b.dataset.lang; render(); }
   else if (b.dataset.mode) { state.mode = b.dataset.mode; render(); }
+  else if (b.dataset.ex) { state.ex = b.dataset.ex; render(); }
   else if (b.dataset.faq !== undefined) { const i = Number(b.dataset.faq); state.faq = state.faq === i ? -1 : i; render(); }
 });
+document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && state.ex) closeEx(true); });
 document.addEventListener('submit', (e) => {
   if (e.target.id !== 'lead-form') return;
   e.preventDefault();

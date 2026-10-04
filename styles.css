@@ -173,3 +173,20 @@ select.inp{font-weight:600}
 .btn:disabled{opacity:.7;cursor:default}
 .footer{border-top:1px solid #1E1E1E;padding:40px 0;background:#000}
 .footer-row{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:20px}
+.watch{margin-top:auto;align-self:flex-start;display:inline-flex;align-items:center;gap:12px;padding:8px 0 0;background:none;border:none;cursor:pointer;color:#F2333B;font:inherit}
+.watch .mono{font-size:12px}
+.watch-ic{width:32px;height:32px;border-radius:50%;background:#E31B23;display:flex;align-items:center;justify-content:center;transition:transform 200ms cubic-bezier(.22,.61,.36,1)}
+.watch-ic svg{margin-inline-start:2px;fill:#FFFFFF}
+.ar .watch-ic svg{transform:scaleX(-1);margin-inline-start:0;margin-inline-end:2px}
+.watch:hover{color:#FFFFFF}
+.watch:hover .watch-ic{transform:scale(1.1)}
+.ex-modal{position:fixed;inset:0;z-index:50;background:rgba(0,0,0,.82);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);display:flex;align-items:center;justify-content:center;padding:24px}
+.ex-box{width:100%;max-width:1040px;border-radius:18px;overflow:hidden;background:#0F0F10;border:1px solid rgba(227,27,35,.45);box-shadow:0 40px 120px -20px rgba(227,27,35,.45)}
+.ex-head{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:12px 12px 12px 22px;border-bottom:1px solid #222}
+.ar .ex-head{padding:12px 22px 12px 12px}
+.ex-x{width:40px;height:40px;border-radius:50%;border:1px solid #333;background:transparent;color:#D8D8D8;font-size:22px;line-height:1;cursor:pointer}
+.ex-x:hover{border-color:#E31B23;color:#fff}
+.ex-frame{position:relative;aspect-ratio:16/9;background:#000}
+.ex-frame iframe,.ex-frame video{position:absolute;inset:0;width:100%;height:100%;border:0}
+.ex-soon{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:16px;text-align:center;padding:24px;background:radial-gradient(600px 300px at 50% 40%,rgba(227,27,35,.18),transparent 70%)}
+@media (max-width:560px){.ex-modal{padding:12px}.ex-frame{aspect-ratio:4/5}.ex-soon .body{font-size:15px}}

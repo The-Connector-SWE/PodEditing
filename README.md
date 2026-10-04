@@ -31,3 +31,4 @@ Static site — deploy as-is to Vercel (framework: Other, no build command) or e
 - Arabic copy needs native-speaker review.
 - The contact form is not wired to a backend yet (see `TODO` in `app.js`).
 - Client logo slots are placeholders until logo files are supplied.
+- Service "Watch example" videos are empty until links are added to `EXAMPLES` in `app.js` (YouTube link/ID or an `.mp4`/`.webm` path); until then the player shows a "coming soon" card.
